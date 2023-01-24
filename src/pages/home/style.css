@@ -1,7 +1,67 @@
 .home-section {
-    background-image: url(./../../images/home/background-home-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    color: white;
+  background-image: url(./../../images/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__text {
+  margin-top: 350px;
+  width: 450px;
+}
+
+.home__text-subheading {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 4.75px;
+  font-weight: normal;
+}
+
+.home__text-title {
+  font-family: "Bellefair", sans-serif;
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 24px 0;
+}
+
+.home__text-subtitle {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+.button-link {
+  text-decoration: none;
+  color: black;
+  margin-top: 550px;
+  width: 275px;
+  height: 275px;
+  border-radius: 150px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-transform: uppercase;
+  font-family: "Bellefair", sans-serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+
+.button-link:hover {
+  box-shadow: 0 0 1px 50px rgba(143, 142, 155, 0.8);
 }
