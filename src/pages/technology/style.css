@@ -1,0 +1,8 @@
+.technology-section {
+    background-image: url(./../../images/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+  }
+  
