@@ -6,13 +6,6 @@
   color: white;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-
 .home__text {
   margin-top: 350px;
   width: 450px;

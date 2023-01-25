@@ -46,10 +46,6 @@
   z-index: 2;
 }
 
-.bold {
-  font-weight: bold;
-}
-
 .nav-list__link {
   color: white;
   text-decoration: none;
