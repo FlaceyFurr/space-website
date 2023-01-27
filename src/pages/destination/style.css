@@ -38,14 +38,18 @@
   letter-spacing: 2.7px;
   cursor: pointer;
   color: #D0D6F9;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
 }
 
 .info__list-item:hover {
   display: block;
-  height: 30px;
+  padding-bottom: 25px;
   border-bottom: 3px solid #D0D6F9;
   opacity: 0.5;
-  transition: all 0.2s ease-in;
 }
 
 .info__title {
