@@ -18,3 +18,23 @@
 .number {
   opacity: 0.25;
 }
+
+.section__title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+  padding-top: 200px;
+  padding-left: 12%;
+}
+
+.info__subtitle {
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px; 
+  color: #D0D6F9;
+  width: 450px;
+}
+

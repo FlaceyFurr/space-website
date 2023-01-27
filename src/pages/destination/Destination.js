@@ -8,11 +8,11 @@ const Destination = () => {
 
   return (
     <main className="destination-section">
-      <h5 className="destination__title">
+      <h5 className="section__title">
         <span className="bold number">01</span> pick your destination
       </h5>
       <div className="container">
-        <img src={dest[selection].img} alt="moon" className="image" />
+        <img src={dest[selection].img} alt="moon" className="planet__image" />
         <div className="info">
           <ul className="info__list">
             {dest?.map((item, index) => (

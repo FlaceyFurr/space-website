@@ -1,8 +1,55 @@
 .crew-section {
-    background-image: url(./../../images/crew/background-crew-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    color: white;
-  }
-  
+  background-image: url(./../../images/crew/background-crew-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+.crew__info {
+  margin-top: 150px;
+}
+
+.crew__status {
+  font-family: "Bellefair", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 15px;
+}
+
+.crew__name {
+  font-family: "Bellefair",sans-serif;
+  font-size: 56px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.crew__list {
+  position: absolute;
+  bottom: 100px;
+  padding-left: 0;
+  width: 285px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.crew__image {
+  height: 695px;
+}
+
+.crew__list-item {
+  border-radius: 10px;
+  padding: 5px 8px;
+  opacity: 0.4;
+}
+
+.crew__list-item:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
