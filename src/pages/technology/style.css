@@ -1,8 +1,69 @@
 .technology-section {
-    background-image: url(./../../images/technology/background-technology-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    color: white;
-  }
-  
+  background-image: url(./../../images/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+.technology__img {
+  position: absolute;
+  right: 0;
+}
+
+.technology {
+  margin-top: 100px;
+  position: absolute;
+}
+
+.technology__item {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+  background-color: rgba(11, 13, 23, 0.8);
+  color: white;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  border: 1px solid rgb(80, 80, 80);
+}
+
+.technology__item:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.technology__info {
+  position: absolute;
+  left: 200px;
+  width: 470px;
+}
+
+.technology__preface {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+  color: #d0d6f9;
+  margin-bottom: 10px;
+}
+
+.technology__title {
+  font-family: "Bellefair", sans-serif;
+  font-size: 56px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.technology__subtitle {
+  width: 444px;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 32px;
+  color: #d0d6f9;
+}

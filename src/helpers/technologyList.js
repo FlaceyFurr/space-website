@@ -10,6 +10,7 @@ import tech03Mobile from "./../images/technology/image-space-capsule-landscape.j
 const technology = [
   {
     id: 0,
+    btnNumber: "1",
     img: tech01,
     imgMobile: tech01Mobile,
     title: "launch vehicle",
@@ -18,6 +19,7 @@ const technology = [
   {
     id: 1,
     img: tech02,
+    btnNumber: "2",
     imgMobile: tech02Mobile,
     title: "spaceport",
     subtitle: "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.",
@@ -25,6 +27,7 @@ const technology = [
   {
     id: 2,
     img: tech03,
+    btnNumber: "3",
     imgMobile: tech03Mobile,
     title: "space capsule",
     subtitle: "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.",

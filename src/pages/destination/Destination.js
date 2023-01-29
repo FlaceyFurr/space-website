@@ -12,7 +12,7 @@ const Destination = () => {
         <span className="bold number">01</span> pick your destination
       </h5>
       <div className="container">
-        <img src={dest[selection].img} alt="moon" className="planet__image" />
+        <img src={dest[selection].img} alt="planet" className="planet__image" />
         <div className="info">
           <ul className="info__list">
             {dest?.map((item, index) => (
