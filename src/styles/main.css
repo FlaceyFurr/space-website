@@ -4,6 +4,22 @@
   margin: 0;
 }
 
+/* Typography */
+.barlow {
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+}
+
+.barlow-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+}
+
+.bellefair {
+  font-family: "Bellefair", sans-serif;
+  font-weight: normal;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -20,9 +36,7 @@
 }
 
 .section__title {
-  font-family: "Barlow Condensed", sans-serif;
   font-size: 28px;
-  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 4.72px;
   padding-top: 200px;
@@ -30,8 +44,6 @@
 }
 
 .info__subtitle {
-  font-family: "Barlow", sans-serif;
-  font-weight: normal;
   font-size: 18px;
   line-height: 32px; 
   color: #D0D6F9;

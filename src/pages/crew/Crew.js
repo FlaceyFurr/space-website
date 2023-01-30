@@ -9,14 +9,14 @@ const Crew = () => {
   return (
     <main className="crew-section">
       <div>
-        <h5 className="section__title">
+        <h5 className="section__title barlow-condensed">
           <span className="bold number">02</span> meet your crew
         </h5>
         <div className="container">
           <div className="crew__info">
-            <h3 className="crew__status">{cr[selection].status}</h3>
-            <h2 className="crew__name">{cr[selection].name}</h2>
-            <p className="info__subtitle">{cr[selection].description}</p>
+            <h3 className="crew__status bellefair">{cr[selection].status}</h3>
+            <h2 className="crew__name bellefair">{cr[selection].name}</h2>
+            <p className="info__subtitle barlow">{cr[selection].description}</p>
             <ul className="crew__list">
               {cr?.map((item, index) => (
                 <button key={item.id}

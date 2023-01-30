@@ -4,8 +4,8 @@ import logo from "./../../images/header/logo.svg";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const activeLink = "nav-list__link nav-list__link_active";
-  const normalLink = "nav-list__link";
+  const activeLink = "nav-list__link nav-list__link_active barlow-condensed";
+  const normalLink = "nav-list__link barlow-condensed";
 
   return (
     <nav className="nav">

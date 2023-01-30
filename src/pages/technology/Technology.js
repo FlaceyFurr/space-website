@@ -8,22 +8,22 @@ const Technology = () => {
 
   return (
     <main className="technology-section">
-      <h5 className="section__title">
+      <h5 className="section__title barlow-condensed">
         <span className="bold number">03</span> space launch 101
       </h5>
       <div className="container">
         <div className="technology">
           <div className="technology__info">
-            <h5 className="technology__preface">the terminology...</h5>
-            <h2 className="technology__title">{tech[selection].title}</h2>
-            <p className="technology__subtitle">{tech[selection].subtitle}</p>
+            <h5 className="technology__preface barlow-condensed">the terminology...</h5>
+            <h2 className="technology__title bellefair">{tech[selection].title}</h2>
+            <p className="technology__subtitle barlow">{tech[selection].subtitle}</p>
           </div>
           <ul className="technology__list">
             {tech?.map((item, index) => (
               <button key={item.id}
-                className="technology__item"
+                className="technology__item bellefair"
                 onClick={() => setSelection(index)}
-              >{index + 1}</button>
+              >{item.btnNumber}</button>
             ))}
           </ul>
         </div>

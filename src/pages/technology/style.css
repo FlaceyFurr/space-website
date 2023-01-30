@@ -17,7 +17,6 @@
 }
 
 .technology__item {
-  font-family: "Bellefair", sans-serif;
   font-size: 32px;
   letter-spacing: 2px;
   display: block;
@@ -46,9 +45,7 @@
 }
 
 .technology__preface {
-  font-family: "Barlow Condensed", sans-serif;
   font-size: 16px;
-  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 2.7px;
   color: #d0d6f9;
@@ -56,18 +53,14 @@
 }
 
 .technology__title {
-  font-family: "Bellefair", sans-serif;
   font-size: 56px;
-  font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
 .technology__subtitle {
   width: 444px;
-  font-family: "Barlow", sans-serif;
   font-size: 18px;
-  font-weight: normal;
   line-height: 32px;
   color: #d0d6f9;
 }

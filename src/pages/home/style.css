@@ -12,26 +12,20 @@
 }
 
 .home__text-subheading {
-  font-family: "Barlow Condensed", sans-serif;
   font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 4.75px;
-  font-weight: normal;
   color: #D0D6F9;
 }
 
 .home__text-title {
-  font-family: "Bellefair", sans-serif;
   font-size: 150px;
   text-transform: uppercase;
-  font-weight: normal;
   padding: 24px 0;
 }
 
 .home__text-subtitle {
-  font-family: "Barlow", sans-serif;
   font-size: 18px;
-  font-weight: normal;
   line-height: 32px;
 }
 
@@ -48,7 +42,6 @@
   align-items: center;
   background-color: white;
   text-transform: uppercase;
-  font-family: "Bellefair", sans-serif;
   font-size: 32px;
   letter-spacing: 2px;
   transition-property: all;

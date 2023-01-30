@@ -11,18 +11,14 @@
 }
 
 .crew__status {
-  font-family: "Bellefair", sans-serif;
   font-size: 32px;
-  font-weight: normal;
   text-transform: uppercase;
   opacity: 0.5;
   margin-bottom: 15px;
 }
 
 .crew__name {
-  font-family: "Bellefair",sans-serif;
   font-size: 56px;
-  font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
