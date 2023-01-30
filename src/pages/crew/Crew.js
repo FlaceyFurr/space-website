@@ -19,14 +19,14 @@ const Crew = () => {
             <p className="info__subtitle">{cr[selection].description}</p>
             <ul className="crew__list">
               {cr?.map((item, index) => (
-                <button
+                <button key={item.id}
                   className="crew__list-item"
                   onClick={() => setSelection(index)}
                 ></button>
               ))}
             </ul>
           </div>
-          <img src={cr[selection].img} alt className="crew__image" />
+          <img src={cr[selection].img} alt="crew portrait" className="crew__image" />
         </div>
       </div>
     </main>

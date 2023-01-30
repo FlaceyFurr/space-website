@@ -16,7 +16,7 @@ const Destination = () => {
         <div className="info">
           <ul className="info__list">
             {dest?.map((item, index) => (
-              <button
+              <button key={item.id}
                 className="info__list-item"
                 onClick={() => setSelection(index)}
               >

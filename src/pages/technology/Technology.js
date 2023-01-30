@@ -20,10 +20,10 @@ const Technology = () => {
           </div>
           <ul className="technology__list">
             {tech?.map((item, index) => (
-              <button
+              <button key={item.id}
                 className="technology__item"
                 onClick={() => setSelection(index)}
-              ></button>
+              >{index + 1}</button>
             ))}
           </ul>
         </div>
