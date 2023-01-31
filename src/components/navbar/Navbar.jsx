@@ -2,6 +2,7 @@ import "./style.css";
 import logo from "./../../images/header/logo.svg";
 
 import { NavLink } from "react-router-dom";
+import BurgerMenu from "../burgerMenu/BurgerMeny";
 
 const Navbar = () => {
   const activeLink = "nav-list__link nav-list__link_active barlow-condensed";
@@ -48,6 +49,8 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="blur"></div>
+
+      <BurgerMenu />
     </nav>
   );
 };
