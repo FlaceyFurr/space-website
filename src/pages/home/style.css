@@ -15,7 +15,7 @@
   font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 4.75px;
-  color: #D0D6F9;
+  color: #d0d6f9;
 }
 
 .home__text-title {
@@ -51,4 +51,48 @@
 
 .button-link:hover {
   box-shadow: 0 0 1px 50px rgba(143, 142, 155, 0.8);
+}
+
+/* Adaptive */
+@media (max-width: 1250px) {
+  .home-section {
+    background-image: url(./../../images/home/background-home-tablet.jpg);
+  }
+
+  .home__text {
+    margin: 200px auto 0;
+  }
+
+  .home__text-subheading {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+
+  .button-link {
+    margin: 150px auto 90px;
+  }
+}
+
+@media (max-width: 650px) {
+  .home__text {
+    width: 320px;
+  }
+  
+  .home__text-subheading {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+
+  .home__text-title {
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .button-link {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+  }
 }

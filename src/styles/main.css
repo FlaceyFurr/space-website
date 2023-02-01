@@ -50,3 +50,29 @@
   width: 450px;
 }
 
+/* Adaptive */
+@media (max-width: 1250px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .info__subtitle {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 650px) {
+  .info__subtitle {
+    font-size: 15px;
+    line-height: 25px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
