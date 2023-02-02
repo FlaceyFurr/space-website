@@ -29,8 +29,8 @@
   font-size: 16px;
   letter-spacing: 2.7px;
   cursor: pointer;
-  color: #D0D6F9;
-  background-color: rgba(0,0,0,0);
+  color: #d0d6f9;
+  background-color: rgba(0, 0, 0, 0);
   border: none;
   transition-property: all;
   transition-duration: 0.2s;
@@ -40,7 +40,7 @@
 .info__list-item:hover {
   display: block;
   padding-bottom: 25px;
-  border-bottom: 3px solid #D0D6F9;
+  border-bottom: 3px solid #d0d6f9;
   opacity: 0.5;
 }
 
@@ -51,8 +51,8 @@
 }
 
 .info__line {
-  margin: 54px 0 25px;
-  border: 1px solid #383B4B;
+  margin: 60px 0 40px;
+  border: 1px solid #383b4b;
 }
 
 .subheading {
@@ -65,11 +65,87 @@
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2.36px;
-  color: #D0D6F9;
+  color: #d0d6f9;
 }
 
 .subheading__subtitle {
   font-size: 28px;
   text-transform: uppercase;
   margin-top: 12px;
+}
+
+/* Adaptive */
+@media (max-width: 1250px) {
+  .destination-section {
+    background-image: url(./../../images/destination/background-destination-tablet.jpg);
+  }
+
+  .planet__image {
+    width: 300px;
+    height: 300px;
+    margin: 60px auto 0;
+  }
+
+  .info {
+    margin: 60px auto 0;
+  }
+
+  .info__list {
+    margin: 0 auto;
+  }
+
+  .info__title {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .subheading {
+    margin: 0 auto 60px;
+  }
+
+  .subheading__title {
+    text-align: center;
+  }
+
+  .subheading__subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .planet__image {
+    width: 170px;
+    height: 170px;
+  }
+
+  .info {
+    width: 300px;
+  }
+
+  .info__line {
+    width: 280px;
+    margin: 60px auto 40px;
+  }
+
+  .info__list {
+    width: 260px;
+  }
+
+  .info__list-item {
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+
+  .info__title {
+    font-size: 56px;
+  }
+
+  .subheading {
+    width: 300px;
+    grid-template-columns: 1fr;
+  }
+
+  .subheading__distance {
+    margin-bottom: 30px;
+  }
 }

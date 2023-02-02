@@ -9,7 +9,7 @@ const Technology = () => {
   return (
     <main className="technology-section">
       <h5 className="section__title barlow-condensed">
-        <span className="bold number">03</span> space launch 101
+        <span className="number">03</span> space launch 101
       </h5>
       <div className="container">
         <div className="technology">

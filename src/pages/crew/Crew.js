@@ -10,7 +10,7 @@ const Crew = () => {
     <main className="crew-section">
       <div>
         <h5 className="section__title barlow-condensed">
-          <span className="bold number">02</span> meet your crew
+          <span className="number">02</span> meet your crew
         </h5>
         <div className="container">
           <div className="crew__info">
