@@ -33,6 +33,7 @@ const Technology = () => {
         alt="technology"
         className="technology__img"
       />
+      <img src={tech[selection].imgMobile} alt="technology" className="technology__img-mobile" />
     </main>
   );
 };

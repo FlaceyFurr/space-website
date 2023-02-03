@@ -11,6 +11,10 @@
   right: 0;
 }
 
+.technology__img-mobile {
+  display: none;
+}
+
 .technology {
   margin-top: 100px;
   position: absolute;
@@ -59,8 +63,126 @@
 }
 
 .technology__subtitle {
-  width: 444px;
+  width: 450px;
   font-size: 18px;
   line-height: 32px;
   color: #d0d6f9;
+}
+
+/* Adaptive */
+@media (max-width: 1350px) {
+  .technology__img {
+    width: 400px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .technology-section {
+    background-image: url(./../../images/technology/background-technology-tablet.jpg);
+    background-size: cover;
+    height: 130vh;
+  }
+
+  .technology {
+    width: 80%;
+  }
+
+  .technology__img {
+    display: none;
+  }
+
+  .technology__img-mobile {
+    display: flex;
+    max-width: 100%;
+    width: 60%;
+    margin: 60px auto;
+    height: 310px;
+  }
+
+  .technology__list {
+    display: flex;
+    width: 210px;
+    justify-content: space-between;
+    margin: 320px auto 0;
+    padding-left: 0;
+  }
+
+  .technology__item {
+    display: inline;
+    margin-bottom: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+
+  .technology__info {
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 450px;
+    text-align: center;
+  }
+
+  .technology__title {
+    font-size: 40px;
+  }
+
+  .technology__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 960px) {
+  .technology__img-mobile {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .technology-section {
+    height: 110vh;
+  }
+
+  .technology__img-mobile {
+    height: 190px;
+    width: 90%;
+  }
+
+  .technology {
+    width: 100%;
+  }
+
+  .technology__list {
+    margin: 200px auto 0;
+  }
+
+  .technology__info {
+    top: 300px;
+    width: 300px;
+  }
+
+  .technology__subtitle {
+    width: 300px;
+  }
+
+  .technology__item {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .technology__preface {
+    font-size: 14px;
+  }
+
+  .technology__title {
+    font-size: 24px;
+  }
+
+  .technology__subtitle {
+    font-size: 15px;
+  }
 }
