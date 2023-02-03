@@ -95,7 +95,8 @@
     height: 225px;
     position: absolute;
     margin-top: 40px;
-    left: 37%;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   .crew__line {
@@ -103,7 +104,8 @@
     width: 280px;
     margin-top: 265px;
     position: absolute;
-    left: 25%;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   .crew__info {
@@ -124,25 +126,5 @@
 
   .crew__name {
     font-size: 24px;
-  }
-}
-
-@media (max-width: 450px) {
-  .crew__image {
-    left: 28%;
-  }
-
-  .crew__line {
-    left: 15%;
-  }
-}
-
-@media (max-width: 375px) {
-  .crew__image {
-    left: 25%;
-  }
-
-  .crew__line {
-    left: 5%;
   }
 }
