@@ -7,8 +7,7 @@
 }
 
 .nav__logo {
-  margin-top: 24px;
-  margin-left: 55px;
+  margin: 24px 55px;
 }
 
 .blur {
@@ -119,4 +118,3 @@
     display: none;
   }
 }
-

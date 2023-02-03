@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <nav className="nav">
-      <NavLink to="/">
-        <img src={logo} alt="logo" className="nav__logo" />
+      <NavLink to="/" className="nav__logo">
+        <img src={logo} alt="logo" />
       </NavLink>
       <hr className="nav__line" />
       <ul className="nav-list">
