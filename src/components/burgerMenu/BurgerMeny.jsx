@@ -11,7 +11,7 @@ const BurgerMenu = () => {
 
       <ul className="menu__box">
         <li>
-          <NavLink to="/" className="menu__item">
+          <NavLink to="/home" className="menu__item">
             Home
           </NavLink>
         </li>
