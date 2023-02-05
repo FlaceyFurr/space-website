@@ -12,7 +12,7 @@ const Crew = () => {
         <h5 className="section__title barlow-condensed">
           <span className="number">02</span> meet your crew
         </h5>
-        <div className="container">
+        <div className="container animate__animated animate__fadeIn animate__slow">
           <hr className="crew__line" />
           <div className="crew__info">
             <h3 className="crew__status bellefair">{cr[selection].status}</h3>

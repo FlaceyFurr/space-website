@@ -11,7 +11,7 @@ const Technology = () => {
       <h5 className="section__title barlow-condensed">
         <span className="number">03</span> space launch 101
       </h5>
-      <div className="container">
+      <div className="container animate__animated animate__fadeIn animate__slow">
         <div className="technology">
           <div className="technology__info">
             <h5 className="technology__preface barlow-condensed">the terminology...</h5>
@@ -31,9 +31,9 @@ const Technology = () => {
       <img
         src={tech[selection].img}
         alt="technology"
-        className="technology__img"
+        className="technology__img animate__animated animate__fadeIn animate__slow"
       />
-      <img src={tech[selection].imgMobile} alt="technology" className="technology__img-mobile" />
+      <img src={tech[selection].imgMobile} alt="technology" className="technology__img-mobile animate__animated animate__fadeIn animate__slow" />
     </main>
   );
 };

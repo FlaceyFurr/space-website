@@ -11,8 +11,8 @@ const Destination = () => {
       <h5 className="section__title barlow-condensed">
         <span className="number">01</span> pick your destination
       </h5>
-      <div className="container">
-        <img src={dest[selection].img} alt="planet" className="planet__image" />
+      <div className="container animate__animated animate__fadeIn animate__slow">
+        <img src={dest[selection].img} alt="planet" className="planet__image animate__animated animate__pulse animate__infinite animate__slower" />
         <div className="info">
           <ul className="info__list">
             {dest?.map((item, index) => (
