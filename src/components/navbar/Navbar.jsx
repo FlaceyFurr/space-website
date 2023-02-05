@@ -10,14 +10,14 @@ const Navbar = () => {
 
   return (
     <nav className="nav">
-      <NavLink to="/home" className="nav__logo">
+      <NavLink to="/" className="nav__logo">
         <img src={logo} alt="logo" />
       </NavLink>
       <hr className="nav__line" />
       <ul className="nav-list">
         <li className="nav-list__item">
           <NavLink
-            to="/home"
+            to="/"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             <span className="bold">00</span> home
