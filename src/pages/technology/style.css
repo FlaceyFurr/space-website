@@ -42,6 +42,11 @@
   cursor: pointer;
 }
 
+.technology__item:focus {
+  background-color: white;
+  color: black;
+}
+
 .technology__info {
   position: absolute;
   left: 200px;

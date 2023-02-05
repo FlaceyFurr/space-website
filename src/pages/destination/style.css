@@ -44,6 +44,12 @@
   opacity: 0.5;
 }
 
+.info__list-item:focus {
+  display: block;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #d0d6f9;
+}
+
 .info__title {
   font-size: 100px;
   margin: 45px 0 14px;

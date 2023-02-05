@@ -54,6 +54,10 @@
   cursor: pointer;
 }
 
+.crew__list-item:focus {
+  opacity: 1;
+}
+
 /* Adaptive */
 @media (max-width: 1250px) {
   .crew-section {
