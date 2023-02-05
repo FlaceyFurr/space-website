@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import "./styles/main.css";
+import "animate.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Destination from "./pages/destination/Destination";
