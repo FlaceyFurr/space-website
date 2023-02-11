@@ -10,14 +10,14 @@ const Navbar = () => {
 
   return (
     <nav className="nav">
-      <NavLink to="/" className="nav__logo">
+      <NavLink to="/space-website" className="nav__logo">
         <img src={logo} alt="logo" />
       </NavLink>
       <hr className="nav__line" />
       <ul className="nav-list">
         <li className="nav-list__item">
           <NavLink
-            to="/"
+            to="/space-website"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             <span className="bold">00</span> home
@@ -25,7 +25,7 @@ const Navbar = () => {
         </li>
         <li className="nav-list__item">
           <NavLink
-            to="/destination"
+            to="/space-website/destination"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             <span className="bold">01</span> destination
@@ -33,7 +33,7 @@ const Navbar = () => {
         </li>
         <li className="nav-list__item">
           <NavLink
-            to="/crew"
+            to="/space-website/crew"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             <span className="bold">02</span> crew
@@ -41,7 +41,7 @@ const Navbar = () => {
         </li>
         <li className="nav-list__item">
           <NavLink
-            to="/technology"
+            to="/space-website/technology"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             <span className="bold">03</span> technology

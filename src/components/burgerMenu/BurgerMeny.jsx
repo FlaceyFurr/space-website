@@ -11,22 +11,22 @@ const BurgerMenu = () => {
 
       <ul className="menu__box">
         <li>
-          <NavLink to="/" className="menu__item">
+          <NavLink to="/space-website" className="menu__item">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/destination" className="menu__item">
+          <NavLink to="/space-website/destination" className="menu__item">
             Destination
           </NavLink>
         </li>
         <li>
-          <NavLink to="/crew" className="menu__item">
+          <NavLink to="/space-website/crew" className="menu__item">
             Crew
           </NavLink>
         </li>
         <li>
-          <NavLink to="/technology" className="menu__item">
+          <NavLink to="/space-website/technology" className="menu__item">
             Technology
           </NavLink>
         </li>
