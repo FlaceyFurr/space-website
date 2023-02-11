@@ -3,7 +3,7 @@ import Home from "./pages/home/Home";
 import "./styles/main.css";
 import "animate.css";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Destination from "./pages/destination/Destination";
 import Crew from "./pages/crew/Crew";
 import Technology from "./pages/technology/Technology";
@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/space-website" element={<Home />} />
-          <Route path="/space-website/destination" element={<Destination />} />
-          <Route path="/space-website/crew" element={<Crew />} />
-          <Route path="/space-website/technology" element={<Technology />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/destination" element={<Destination />} />
+          <Route path="/crew" element={<Crew />} />
+          <Route path="/technology" element={<Technology />} />
         </Routes>
       </Router>
     </div>
