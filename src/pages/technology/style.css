@@ -85,8 +85,7 @@
 @media (max-width: 1250px) {
   .technology-section {
     background-image: url(./../../images/technology/background-technology-tablet.jpg);
-    background-size: cover;
-    height: 130vh;
+    height: 170vh;
   }
 
   .technology {
@@ -147,12 +146,13 @@
 
 @media (max-width: 650px) {
   .technology-section {
-    height: 110vh;
+    height: 150vh;
   }
 
   .technology__img-mobile {
     height: 190px;
     width: 90%;
+    margin: 20px auto;
   }
 
   .technology {
