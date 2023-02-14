@@ -132,3 +132,18 @@
     font-size: 24px;
   }
 }
+
+/* Adaptive height */
+@media (max-height: 750px) and (min-width: 650px) {
+  .crew__image {
+    height: 550px;
+  }
+
+  .crew__list {
+    bottom: 0;
+  }
+
+  .crew__info {
+    margin-top: 100px;
+  }
+}

@@ -32,7 +32,7 @@
 .button-link {
   text-decoration: none;
   color: black;
-  margin-top: 550px;
+  margin-top: 450px;
   width: 275px;
   height: 275px;
   border-radius: 150px;
@@ -94,5 +94,22 @@
     width: 150px;
     height: 150px;
     font-size: 20px;
+  }
+}
+
+/* Adaptive height */
+@media (max-height: 750px) {
+  .home__text {
+    margin-top: 250px;
+  }
+
+  .button-link {
+    margin-top: 350px;
+  }
+}
+
+@media (max-height: 750px) and (max-width: 650px) {
+  .button-link {
+    margin-top: 150px;
   }
 }
