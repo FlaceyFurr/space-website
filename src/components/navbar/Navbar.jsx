@@ -2,7 +2,7 @@ import "./style.css";
 import logo from "./../../images/header/logo.svg";
 
 import { NavLink } from "react-router-dom";
-import BurgerMenu from "../burgerMenu/BurgerMeny";
+import BurgerMenu from "../burgerMenu/BurgerMenu";
 
 const Navbar = () => {
   const activeLink = "nav-list__link nav-list__link_active barlow-condensed";
